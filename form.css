@@ -1,0 +1,64 @@
+body{
+    background-image: url('image.jpeg');
+    background-repeat:no-repeat;
+    width: device-width;
+    display:flex;
+    align-items: center;
+}
+.container{
+     margin-top:10px;
+}
+.head{
+    text-align:center;
+    margin-top:100px;
+    margin-left:700px;
+    font-size:150%;
+    color: rgb(244, 245, 239);
+}
+.details{
+    margin-left:725px;
+    margin-top:50px;
+    font-size:110%;
+    color: rgb(247, 233, 233);
+    
+}
+.form{
+    margin-left:700px;
+    margin-top:100px;
+    font-size:larger;
+    background-color:rgb(212, 187, 150);
+    width:500px;
+    height:390px;
+   
+}
+.form-group{
+    margin-top:10px;
+    padding:15px;
+}
+#name{
+    margin-left:99px;
+}
+#phone{
+    margin-left:15px;
+}
+#role{
+    margin-left:114px;
+}
+i{
+    visibility: hidden;
+}
+#mail{
+    margin-left:88px;
+}
+#password{
+    margin-left:65px;
+}
+span{
+    color:red;
+}
+#submit{
+    position: relative;
+    left: 200px;
+    top: 30px;
+    padding:5px;
+}
